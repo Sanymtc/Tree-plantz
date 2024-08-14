@@ -1,0 +1,44 @@
+*{
+    Margin:0;
+    Padding :0;
+    Box-sizing:border-box;
+}
+.content {
+    Height :400px;
+    Width: 100%;
+    Background-color :#eee;
+}
+.flex{
+    Display :flex;
+    /* width: 800px; */
+    Justify-content :centre;
+    align-items: center;
+	Margin: 0 auto;
+}
+.column{
+    Width: 30%;
+    Padding: 30px;
+    Height :300px;
+    Justify-content: centre;
+    align-items:centre;
+}
+.title{
+    Margin-top:50px;
+    Padding :20px;
+    Font-size:35px;
+    Color :green ;
+    
+}
+.text{
+    Padding:20px;
+    font-size:18px;
+}
+.pic{
+    height: 300px;
+    width: 300px;
+    border-radius: 100px 0;
+    margin: 0 auto;
+}
+.intro{
+	width: 60%;
+}
